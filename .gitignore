@@ -30,3 +30,5 @@ web/soaplog
 *~
 codecept*
 /tests
+
+list task.txt
