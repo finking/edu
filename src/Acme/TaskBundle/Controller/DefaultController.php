@@ -15,6 +15,19 @@ class DefaultController extends Controller
 
         $form = $this->createForm(new TaskType(), $task);
 
+        $form->handleRequest($request);
+
+        if ($form->isValid()) {
+            $name = $task->getName();
+            $surname = $task->getSurname();
+            $email = $task->getEmail();
+
+            return $this->render('AcmeTaskBundle:Default:thank.html.twig', array(
+                'name' => $name,
+                'surname' => $surname,
+                'email' => $email,
+            ));
+        }
         return $this->render('AcmeTaskBundle:Default:new.html.twig', array(
             'form' => $form->createView(),
         ));

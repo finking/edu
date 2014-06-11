@@ -1,0 +1,21 @@
+Acme\TaskBundle\Entity\Task:
+   properties:
+       name:
+           - NotBlank: ~
+#           - Length:
+#              min: 3
+#              max: 10
+ #             minMessage: "Ваше имя должно быть не менее {{ limit }} символов"
+#              maxMessage: "Ваше имя должно быть не более {{ limit }} символов"
+       surname:
+           - NotBlank: ~
+#           - Length:
+#              min: 3
+#              max: 10
+#             minMessage: "Ваша фамилия должна быть не менее {{ limit }} символов"
+#              maxMessage: "Ваша фамилия должна быть не более {{ limit }} символов"
+       email:
+           - NotBlank: ~
+#           - Email:
+#              message: The email "{{ value }}" is not a valid email.
+#              checkMX: true
