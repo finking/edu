@@ -1,0 +1,251 @@
+
+body {
+	margin-top: 60px;
+}
+
+.prototype_wrapper {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
+}
+
+.contact_data_wrapper {
+	float: left;
+	width: 23.404255319149%;
+	margin-right: 2.1276595744681%;
+	margin-bottom: 20px;
+	position: relative;
+
+}
+
+.contact_data_wrapper.divis4 {
+	margin-right: 0;
+}
+
+.contact_data_wrapper input {
+	padding: 5px 0;
+	width: 100%;
+	display: block;
+
+}
+
+.contact_data_wrapper span.close_icon_wrapper {
+	position: absolute;
+	right: 1px;
+	z-index: 20;
+	top: 1px;
+	display: block;
+}
+
+.prototype_wrapper {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.prototype_wrapper input {
+	padding: 5px 0;
+	width: 100%;
+	display: block;
+}
+
+.position_sorter span i {
+	cursor: pointer;
+}
+
+.sortable_placeholder {
+	display: block;
+	height: 25px;
+	margin: 0 0 5px 0;
+	background: black;
+	float: left;
+	width: 100%;
+}
+
+.prototype_wrapper span.close_icon_wrapper {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 20;
+	display: block;
+}
+
+#login_wrapper {
+	margin: 0 auto;
+	width: 260px;
+}
+
+.prototype_wrapper input[type=checkbox] {
+	width: auto;
+}
+
+form div#archive select {
+	width: 100%;
+}
+
+.status_history .cont_wrap {
+	background: url("http://cdn01.pegast.su/get/7f/4d/3e/3b35c4f3eda24cfcda6c2557f17fa490dd3f80091b8c029232de4add55/green_line.png") repeat-y center;
+}
+
+.status_history table {
+	border-collapse: collapse;
+	border-color: transparent;
+}
+
+.status_history td {
+	padding: 3px;
+}
+
+.status_history .block {
+	background: #d9edf7;
+	padding: 0 10px 0 10px;
+	width: 50%;
+	font-family: tahoma, sans-serif;
+	font-size: 10px;
+	border: 1px solid #bce8f1;
+	border-radius: 4px;
+	margin: 10px 0 30px 0;
+	color: #31708f;
+}
+
+.status_history .red {
+	border-color: #ebccd1;
+	background: #f2dede;
+	color: #a94442;
+}
+
+.status_history .green {
+	border-color: #d6e9c6;
+	background: #dff0d8;
+	color: #3c763d;
+}
+
+.status_history .stroka:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.status_history .stroka {
+	margin: 0;
+	font-size: 9px;
+	padding: 3px 0 3px 0;
+
+}
+
+.status_history .inf {
+	border-right: 1px solid transparent;
+	width: 50px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.instr_info {
+	background: #DBE5F1;
+	padding: 0 0 0 10px;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.instr_info.dark {
+	background: #4F81BD;
+	color: white;
+}
+
+.instr_note {
+	padding: 0 20px;
+}
+
+.instr_note .grey_cl {
+	color: #999;
+}
+
+.img_cent {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+ul.wo_marker {
+	list-style: none;
+}
+
+i.clock_b, i.clock_g, i.error_cross {
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	content: "";
+	background: url("http://cdn01.pegast.su/get/73/e3/8c/fb7de45095a3740f3c023db454b46a6b42dffedc76589c7067a9ffd780/clock_$&_err.png") no-repeat;
+	margin: 0 4px;
+	width: 20px;
+	height: 21px;
+}
+
+i.clock_g {
+	background-position: 0 -20px;
+}
+
+i.error_cross {
+	background-position: 0 -41px;
+	width: 21px;
+	height: 21px;
+
+}
+
+.important i {
+	background: url(http://pegast.ru/newPegas/images/sprites/sprites.png?05.05.2014) -291px -91px no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	position: relative;
+	margin: 0px 4px 0px 0px;
+	top: 0;
+	content: ' ';
+}
+
+.red {
+	color: #D94040;
+}
+
+p.before_ul {
+	margin: 0;
+}
+
+table p {
+	margin-bottom: 0;
+}
+
+table p span {
+	display: inline-block;
+	height: 1px;
+	border-bottom: 1px dotted black;
+	width: 92%;
+	margin-left: 3px;
+}
+
+.oglavl {
+	height: 20px;
+	display: -webkit-box;
+}
+
+.oglavl a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.oglavl div, .oglavl .dotted_strok {
+	display: -webkit-box;
+	-webkit-box-flex: 0;
+}
+
+.oglavl .dotted_strok {
+	-webkit-box-flex: 1;
+	margin: 0 2px;
+	border-bottom: 1px dotted black;
+	position: relative;
+	top: -2px;
+}
+
