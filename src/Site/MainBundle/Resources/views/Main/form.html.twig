@@ -1,0 +1,12 @@
+{% extends '::base.html.twig' %}
+
+{% block title %} Страница с формой {% endblock %}
+{% block body %}
+    <h1>Страница с формой</h1>
+    <form action="{{ path('thanks_page') }}" method="post" {{ form_enctype(form) }}>
+        {{ form_widget(form) }}
+
+        <input type="submit"/>
+    </form>
+    <a href="/">Главная</a>
+{% endblock %}
